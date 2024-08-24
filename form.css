@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    width: 32%;
+    height: auto;
+    margin: 4rem auto;
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid #d7d7d7;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.2rem;
+}
+
+.input-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.2rem;
+}
+
+input{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.button-container{
+    width: 100%;
+    height: auto;
+}
+
+.button-container button{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.fullname-alert{
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.email-alert{
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.phonenumber-alert{
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+}
